@@ -32,7 +32,7 @@ Response:I needed help with figuring out how to set up the methods, the syntax e
 
 Explain which suggestions you used, changed, or rejected. Do not paste an entire AI conversation.
 
-Response: I used it's example suggestions and fitted them into my code and tried to see if it'll work and it did. Like the syntax error fixes, forgotten lines of code needed, making the constructor in the Person.java file with the default values.
+Response: I used it's example suggestions and fitted them into my code and tried to see if it'll work and it did. Like the syntax error fixes, forgotten lines of code needed.
 
 ## Testing and Verification
 

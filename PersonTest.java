@@ -3,9 +3,13 @@ public class PersonTest {
         Person fp = new Person();
         fp.setName("Jessica Sittler");
         fp.setAge(38);
-        fp.setEmail("sjessica@gamil.com");
+        fp.setEmail("sjessica@gmail.com");
         String name = fp.getName();
-        Person sp = new Person("Michael Finch", 76, "rocknroll@yahoo.com");
+        Person sp = new Person();
+        sp.setName("Michael Finch");
+        sp.setAge(76);
+        sp.setEmail("rocknroll@yahoo.com");
+        String email = sp.getEmail();
         System.out.println(fp.displayInfo());
         System.out.println("");
         System.out.println(sp.displayInfo());
