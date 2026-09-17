@@ -1,3 +1,42 @@
 public class Person {
-    
+    private String name = ""; 
+    private String email = "";
+    private String info = "";
+    private int age = 0;
+    public Person(){
+        name = "";
+        age = 0;
+        email = "";
+    }
+    public Person(String name, int age, String email){
+        this.name = name;
+        this.age = age;
+        this.email = email;
+    }
+    public String getName(){
+        return name;
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+    public int getAge(){
+        return age;
+    }
+    public void setAge(int age){
+        this.age = age;
+    }
+    public String getEmail(){
+        return email;
+    }
+    public void setEmail(String email){
+        this.email = email;
+    }
+    public String displayInfo(){
+        info = "Person Information\n" + 
+               "------------------\n" +
+               "Name:   " + name + "\n" +
+               "Age:    " + Integer.toString(age) + "\n" +
+               "Email:  " + email;
+        return info; 
+    }
 }
